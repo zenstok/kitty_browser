@@ -1,27 +1,31 @@
- .kitty-form form {
-        display: flex;
-        height: 2.5rem;
- }
- 
- .kitty-form form  .form-group{
-        position: relative;
+.kitty-form form {
+    display: flex;
+    height: 2.5rem;
 }
- 
-.kitty-form form  .form-group input[name="kittyId"] {
-        height: 100%;
-        margin-right: 1rem;
+
+.kitty-form form .form-group {
+    position: relative;
+}
+
+.kitty-form form .form-group input[name="kittyId"] {
+    height: 100%;
+    margin-right: 1rem;
 }
 
 .kitty-form form .form-group .form-errors {
-        position: absolute;
-        width: 100vw;
-        top: 3rem;
+    position: absolute;
+    width: 100vw;
+    top: 3rem;
 }
 
-.kitty-form form button[type="submit"] {
-        background-color: #606C76;
-        color: white;
-        padding: 0.25rem 1rem;
-        border-radius: 0.25rem;
-        border: none;
+.kitty-form form button {
+    background-color: #606C76;
+    color: white;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+.kitty-form form button[type="button"] {
+    margin-left: 1rem;
 }
